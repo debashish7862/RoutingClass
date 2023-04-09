@@ -1,13 +1,21 @@
 
 import './App.css';
-import One from './Components/ContextAPI Class1/One';
+import Home from './Components/ContextAPI LogIn page/Home';
+import Login from './Components/ContextAPI LogIn page/Login';
+
+import Nav from './Components/ContextAPI LogIn page/Nav';
+import TodoApp from './Components/WeeklyTest4/ToDoApp/TodoApp';
+
+
 
 
 function App() {
   return (
     <div>
-  
-  <One/>
+  {/* <Nav/> */}
+  {/* <Login/> */}
+ {/* <Home/> */}
+ <TodoApp/>
   </div>
   
   );
