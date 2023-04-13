@@ -2,14 +2,19 @@ import React from 'react'
 import { useState,useContext } from 'react'
 import myTodoContext from './todoContext'
 import InputTodo from './InputTodo.jsx'
+import { useTodoContext } from './todoContext'
 export default function TodoItem() {
   
-  const {contextData} = useContext(myTodoContext)
-  console.log(contextData)
+  const {} = useContext(myTodoContext)
+  console.log()
   return (
     <div className='item'>
       <div className="itemTitle">
-        <p>{InputTodo.addValue}</p>
+       <ul>
+        
+          <li></li>
+        
+       </ul>
         
 
 </div>
